@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Student from './component/Studnet';
 function App() {
+
+
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>LeadersBoard</h1>
+      <Student name ="M Furqan Asif" uname="Bahria University" score={335} />
+      <Student name ="Aman Khalid" uname="Bahria University" score={345} />
+      <Student name ="Hamza Arbyani" uname="Bahria University" score={350} />
+    </>
   );
 }
 

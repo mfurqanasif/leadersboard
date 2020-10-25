@@ -1,0 +1,58 @@
+.student {
+display: flex;
+flex-direction: row;
+}
+
+.left{
+    margin-left: 10%;
+    width: 50%;
+    text-align: left;
+}
+
+.right{
+    margin-right: 20%;
+    width: 50%;
+    color: green;
+    vertical-align: middle;
+    text-align: right;
+}
+
+
+.student-info p{
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.student-info p span{
+    font-size: 12px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:1px;
+}
+
+.add:hover{
+    background-color: green;
+}
+.sub:hover{
+    background-color: red;
+}
+.student-info h2 button{
+    background-color: cornflowerblue;
+    vertical-align: top;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding:5px;
+}
+
+.fail{
+    background-color: red;
+}
+
+.success{
+    background-color: green;
+}
